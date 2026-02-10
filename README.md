@@ -26,16 +26,19 @@ git clone <repo-url>
 cd gameslibrary/backend
 ```
 
-3. Installer avhengigheter:
+2.
+```
+Installer avhengigheter:
 npm install
+```
 
-4. Start MariaDB og sørg for at du kan logge inn:
+3. Start MariaDB og sørg for at du kan logge inn:
 mariadb -u madde -p -h localhost
 
-5. Initialiser databasen (kjør kun én gang eller når du vil resette testdata):
+4. Initialiser databasen (kjør kun én gang eller når du vil resette testdata):
 node dbinit.js
 
-6. Start serveren:
+5. Start serveren:
 node app.js
 
 # eller for utvikling:
